@@ -1,0 +1,20 @@
+.theme(@bg-color,@font-color,@menu,@card-bg) {
+  background-color: @bg-color;
+  color: @font-color;
+  .menu {
+    background-color: @menu;
+    .menu.transition.visible {
+      background-color: @menu;
+    }
+  }
+  .text {
+    color: @font-color;
+  }
+  .ui.card {
+    background-color: @card-bg;
+    .header,
+    .meta {
+      color: @font-color;
+    }
+  }
+}
