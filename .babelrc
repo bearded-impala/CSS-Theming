@@ -1,0 +1,6 @@
+{
+  "presets": [
+    ["@babel/env", { "targets": ["last 2 versions"] }],
+    "@babel/preset-react"
+  ]
+}
