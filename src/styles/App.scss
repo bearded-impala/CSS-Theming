@@ -1,0 +1,22 @@
+@import "./Theme.scss";
+
+//generic
+$dark-font: #333;
+$light-font: rgba(255, 255, 255, 0.9);
+
+//theme($bg-color,$font-color)
+body.algae {
+  @include theme(rgb(191, 211, 206), $dark-font);
+}
+
+body.paper {
+  @include theme(#f4f4f4, $dark-font);
+}
+
+body.charcoal {
+  @include theme(#373737, $light-font);
+}
+
+body.lavender {
+  @include theme(rgb(224, 191, 224), $dark-font);
+}

@@ -21,7 +21,7 @@ $ npm start
 
 ## Solution:
 
-#### [index.html](https://github.com/bearded-impala/CSS-Theming/src/index.html)
+#### [index.html](https://github.com/bearded-impala/CSS-Theming/blob/master/index.html)
 
 ```
 ...
@@ -35,11 +35,11 @@ $ npm start
 ...
 ```
 
-#### [Theme.less](https://github.com/bearded-impala/CSS-Theming/src/styles/Theme.less)
+#### [Theme.less](https://github.com/bearded-impala/CSS-Theming/blob/master/src/styles/Theme.less)
 
 This stylesheet contains a generic [mixin] style template for your user interface
 
-#### [App.less](https://github.com/bearded-impala/CSS-Theming/src/styles/App.less)
+#### [App.less](https://github.com/bearded-impala/CSS-Theming/blob/master/src/styles/App.less)
 
 The stylesheet for your App.js:
 
