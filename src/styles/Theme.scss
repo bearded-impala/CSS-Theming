@@ -1,0 +1,11 @@
+@mixin theme($bg-color, $font-color) {
+  background-color: $bg-color;
+  color: $font-color;
+
+  h2,
+  h3,
+  p,
+  table {
+    color: $font-color;
+  }
+}
