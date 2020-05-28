@@ -11,18 +11,6 @@
       onload="this.rel='stylesheet'"
       crossorigin
     />
-    <script defer type="text/javascript">
-      window.onload = function () {
-        if (localStorage.getItem("theme")) {
-          document.getElementById("body").className = localStorage.getItem(
-            "theme"
-          );
-          console.log("Preferred theme: ", localStorage.getItem("theme"));
-        } else {
-          console.log("Default theme: ", body.className);
-        }
-      };
-    </script>
   </head>
   <body id="body" class="paper">
     <div id="root"></div>
